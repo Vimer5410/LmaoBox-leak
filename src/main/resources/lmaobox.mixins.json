@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "lmaobox.nomodulesfolder.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "client": [
+    "SplashTextResourceSupplierMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

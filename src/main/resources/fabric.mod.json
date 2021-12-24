@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "bookdupe-addon",
+  "version": "${version}",
+  "name": "Meteor Book Dupe Addon",
+  "description": "An addon that adds the .d dupe to Meteor.",
+  "authors": [
+    "seasnail8169"
+  ],
+  "contact": {
+    "repo": "https://github.com/MeteorDevelopment/meteor-book-dupe-addon"
+  },
+  "icon": "assets/bookdupe/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "meteordevelopment.addons.bookdupe.BookDupeAddon"
+    ]
+  },
+  "depends": {
+    "java": ">=16",
+    "minecraft": ">=1.17.1",
+    "meteor-client": ">0.4.3"
+  }
+}
